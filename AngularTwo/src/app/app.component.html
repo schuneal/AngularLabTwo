@@ -1,0 +1,8 @@
+<app-counter></app-counter>
+<div appMyVisibility hide="false">
+    <p> Hello, this is Sunil</p>
+</div>
+<div appNewColor color="green" (colorEmitter)="changedColor($event)">
+   Color will Change Here!!!
+</div>
+<p>{{colorValue}}</p>
